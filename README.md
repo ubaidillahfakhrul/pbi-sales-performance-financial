@@ -2,9 +2,9 @@
 ```
 📁 root/
 ├── 📊 images/
-│   ├── dash1.GIF
-│   ├── dash2.GIF
-│   └── dash3.GIF
+│   ├── sales_financial_report-1.gif
+│   ├── sales_financial_report-2.gif
+│   └── sales_financial_report-3.gif
 ├── 📄 README.md
 ├── 📄 others data
 ├── 📂 data/
@@ -20,11 +20,12 @@ Welcome to the **Financial Sales Performance Dashboard** — a dynamic and insig
 ---
 
 ## 🖼️ Dashboard Preview
-
-![Dashboard Preview 1](https://github.com/ubaidillahfakhrul/pbi-sales-performance-dashboard/raw/main/image/dash1.gif)
-![Dashboard Preview 2](https://github.com/ubaidillahfakhrul/pbi-sales-performance-dashboard/raw/main/image/dash2.gif)
-![Dashboard Preview 3](https://github.com/ubaidillahfakhrul/pbi-sales-performance-dashboard/raw/main/image/dash3.gif)
-
+#### Dash 1
+![Dashboard Preview 1](https://github.com/ubaidillahfakhrul/pbi-sales-performance-financial/raw/main/images/sales_financial_report-1.gif)
+#### Dash 2
+![Dashboard Preview 2](https://github.com/ubaidillahfakhrul/pbi-sales-performance-financial/raw/main/images/sales_financial_report-2.gif)
+#### Dash 3
+![Dashboard Preview 3](https://github.com/ubaidillahfakhrul/pbi-sales-performance-financial/raw/main/images/sales_financial_report-3.gif)
 
 ---
 # 📊 Financial Sales Performance Dashboard

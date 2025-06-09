@@ -1,21 +1,21 @@
 # 📁 Project Structure
 ```
 📁 root/
-├── 📊 image/
+├── 📊 images/
 │   ├── dash1.GIF
 │   ├── dash2.GIF
 │   └── dash3.GIF
 ├── 📄 README.md
+├── 📄 others data
 ├── 📂 data/
-│   └── GlobalSuperStore.rar
-└── 📁 dashboard/
-    └── dashboard.pbix
+│   └── actual-vs-target-dataset.xlsx
+
 ```
 
 ---
-# 📊 Global Sales & Profitability Dashboard
+# 📊 Financial Sales Performance Dashboard
 
-Welcome to the Global Sales Dashboard project! This dashboard visualizes sales performance, profitability trends, product sub-categories, and shipping modes to help stakeholders make informed decisions.
+Welcome to the **Financial Sales Performance Dashboard** — a dynamic and insightful Power BI report designed to monitor and evaluate sales performance over time. This dashboard provides a clear snapshot of actual vs. target sales, monthly goal achievements, and individual salesperson effectiveness.
 
 ---
 
@@ -27,66 +27,74 @@ Welcome to the Global Sales Dashboard project! This dashboard visualizes sales p
 
 
 ---
+# 📊 Financial Sales Performance Dashboard
 
-## 🚀 Executive Summary
-
-### 🎯 Objective  
-This dashboard aims to provide a comprehensive overview of business performance across sales, profitability, shipping efficiency, and customer segmentation. The goal is to support data-driven decisions and improve profitability.
+Welcome to the **Financial Sales Performance Dashboard** — a dynamic and insightful Power BI report designed to monitor and evaluate sales performance over time. This dashboard provides a clear snapshot of actual vs. target sales, monthly goal achievements, and individual salesperson effectiveness.
 
 ---
 
-### 📌 Key Highlights
+## 🎯 Objective
 
-- **Total Products Sold**: 3,788  
-- **Total Sales**: $12.64M  
-- **Total Profit**: $1.47M  
-- **Shipping Cost**: $1.35M  
-- **Discount Given**: $7.33K
+The purpose of this dashboard is to:
 
----
-
-### 🔝 Top Performing Categories
-
-| Metric | Sub-Category | Value |
-|--------|--------------|--------|
-| 💰 Profit | Copiers | $258K |
-| 💸 Sales | Phones | $1.7M |
-| 🪑 Chairs | Bookcases | $1.5M |
+- Track actual sales (**Total_Sales_Actual**) versus planned sales targets (**Total_Sales_Target**) on a monthly basis.
+- Identify how many months met or missed their sales goals.
+- Highlight top-performing and underperforming salespeople with visual indicators and trend lines.
+- Provide actionable insights for data-driven decision-making.
 
 ---
 
-### 🌍 Top Countries by Sales
+## 📈 Summary
 
-- 🇺🇸 United States
-- 🇫🇷 France
-- 🇨🇳 China
+### Overall Sales Performance (YTD):
+
+| Metric              | Amount       |
+|---------------------|--------------|
+| Actual Sales        | $18.9M       |
+| Target Sales        | $19.3M       |
+| Variance            | -$366.9K     |
+| Variance Percentage | -1.9%        |
+| Months Target Met   | 2 out of 14  |
+
+### Monthly Trends:
+
+- Sales targets were only met in **January 2023** and **July 2023**.
+- A notable decline in both actual and target sales began in **November 2023**, with a **24.87%** drop in actual sales over 3 months.
+
+### Salesperson Highlights:
+
+| Salesperson       | Actual | Target | Variance % | Performance      |
+|-------------------|--------|--------|------------|------------------|
+| Kaine Padly       | $767K  | $704K  | +9.0%      | ⭐ Top Performer  |
+| Curtice Advani    | $750K  | $708K  | +5.9%      | Solid Performance|
+| Jehu Rudeforth    | $707K  | $739K  | -4.35%     | ⚠️ Needs Attention|
 
 ---
 
-### 📦 Shipping Mode
+## 💡 Key Insights
 
-- **Standard Class**: $7.6M in sales (Most Used)
-
----
-
-### 👥 Customer Segments
-
-| Segment | Sales | Percentage |
-|---------|-------|------------|
-| Consumer | $6.51M | 51.48% |
-| Corporate | $3.82M | 30.25% |
-| Home Office | $2.31M | 18.27% |
+- Only **14% of the months** achieved sales targets, indicating the need for performance reassessment.
+- The downward trend since **November 2023** raises concern — internal factors or market dynamics may need investigation.
+- Top performers like **Kaine Padly** can offer best practices to replicate across the team.
+- Months that achieved targets (**Jan & Jul 2023**) should be further analyzed to uncover what drove success.
+- An early warning system or predictive model could help in proactively addressing declining trends.
 
 ---
 
-## 💡 Insights & Recommendations
+## 🧠 Why This Dashboard Stands Out
 
-- **Profit ≠ Sales**: Phones led in sales, but Copiers were the most profitable.
-- **Unprofitable Tables**: Negative profits observed in many countries — recommend reevaluation.
-- **Shipping Optimization**: Standard Class is dominant, but cost efficiency should be checked.
-- **Customer Behavior**: High returns in the Consumer segment need further investigation.
-- **Growth Trend**: Steady annual growth from 2011 to 2014 is a positive sign.
-- **Geographic Strategy**: Focus on high-performing countries (US), review underperformers (Indonesia, Pakistan).
+- ✅ Clean and intuitive layout
+- ✅ Effective use of visual alerts (red/green markers)
+- ✅ Combines individual and team-level analysis
+- ✅ Actionable, not just informational
+
+---
+
+## 📌 Interested in Using or Adapting It?
+
+Feel free to fork or clone this dashboard for your own analysis or projects. Whether you're a sales manager, analyst, or data enthusiast, this template offers a powerful starting point for sales performance tracking.
+
+**Built with:** Power BI | **Year:** 2023–2024 | **Data:** Sample Sales Dataset
 
 ---
 
